@@ -33,9 +33,7 @@ function App() {
     <div className="location-box">
       <div className="location">
         Alaska, USA
-        <div className="date">
-          {date.Builder(new.date())}
-
+        <div className="date">{dateBuilder(new Date())}
         </div>
       </div>
     </div>
