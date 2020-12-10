@@ -6,7 +6,7 @@ base: "https://api.openweathermap.org/data/2.5"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
   <main>
     <div className=".search-box">
       <input 
