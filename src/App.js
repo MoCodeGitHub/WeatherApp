@@ -8,13 +8,21 @@ function App() {
   return (
     <div className="app">
   <main>
-    <div className=".search-box">
+    <div className="search-box">
       <input 
         type="text"
         className="search-bar"
         placeholder="Search..."
 
         />
+    </div>
+    <div className="location-box">
+      <div className="location">
+        Alaska, USA
+        <div className="date">
+
+        </div>
+      </div>
     </div>
   </main>
     </div>
