@@ -31,12 +31,13 @@ function App() {
         />
     </div>
     <div className="location-box">
-      <div className="location">
-        Alaska, USA
-        <div className="date">{dateBuilder(new Date())}
+      <div className="location">Alaska, USA</div>
+        <div className="date">{dateBuilder(new Date())}</div>
         </div>
+        <div className="weather-box">
+        <div className="temp">-6°c</div>
+      <div className="weather">Cold</div>
       </div>
-    </div>
   </main>
     </div>
   );
